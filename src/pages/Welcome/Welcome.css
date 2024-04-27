@@ -1,0 +1,21 @@
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: conic-gradient(from 12.78deg at 28.99% 107.28%, #191817 -17.51deg, #6100C2 175.51deg, #191817 342.49deg, #6100C2 535.51deg);
+}
+.background-image{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: url('../../resources/welcome-screen.png');
+    opacity: 0.1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-div{
+    text-align: center;
+}
