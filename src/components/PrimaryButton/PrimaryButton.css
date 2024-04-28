@@ -1,8 +1,10 @@
+@import '../../variables.css';
+
 .primary-button{
     padding: 10px 75px;
     border-radius: 10px;
-    background-color: #6100c2;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
     border: 0px;
     cursor: pointer;
 }
