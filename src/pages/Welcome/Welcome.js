@@ -1,8 +1,8 @@
 import React from "react";
 import "./Welcome.css";
-import logo from "../../resources/logo.png";
 import PrimaryButton from "../../components/PrimaryButton";
 import { useNavigate } from "react-router-dom";
+import Logo from "../../components/Logo";
 
 function Welcome() {
   const navigate = useNavigate();
@@ -15,7 +15,7 @@ function Welcome() {
     <div className="background">
       <div className="background-image"></div>
       <div className="login-div">
-        <img src={logo} alt="logo" height={32} />
+        <Logo />
         <p className="enjoy-text">Enjoy the newest movies</p>
         <PrimaryButton
           handleClick={(e) => handleLoginClick(e)}
