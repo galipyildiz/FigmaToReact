@@ -11,11 +11,12 @@
     width: 100vw;
     height: 100vh;
     background: url('../../resources/welcome-screen.png');
-    opacity: 0.1;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.1;
 }
 .login-div{
     text-align: center;
+    z-index: 999;
 }
