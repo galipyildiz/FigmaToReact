@@ -20,3 +20,12 @@
     text-align: center;
     z-index: 999;
 }
+.enjoy-text{
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.sign-up-link{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
