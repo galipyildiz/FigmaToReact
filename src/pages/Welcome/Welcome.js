@@ -16,7 +16,7 @@ function Welcome() {
       <div className="background-image"></div>
       <div className="login-div">
         <Logo />
-        <p className="enjoy-text">Enjoy the newest movies</p>
+        <p className="enjoy-text">Enjoy! the newest movies</p>
         <PrimaryButton
           handleClick={(e) => handleLoginClick(e)}
           text={"Log in"}
