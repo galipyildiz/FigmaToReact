@@ -7,6 +7,7 @@ function LeftNavButton({ text, icon, isActive }) {
         className={!isActive ? "nav-button-icon" : ""}
         src={icon}
         height={24}
+        alt="logo"
       />
       <span className="nav-button-text">{text}</span>
     </button>
