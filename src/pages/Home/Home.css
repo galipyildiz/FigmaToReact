@@ -1,0 +1,35 @@
+@import '../../variables.css';
+
+.main-container{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15% auto;
+}
+.left-navigation-bar{
+    background-color: var(--dark-color);
+    box-shadow: 2px 0px 90px rgba(97, 0, 194, 0.4);
+    z-index: 99;
+    padding: 40px;
+    min-width: 150px;
+}
+.left-navigation-bar-up-item-container{
+    margin-top: 58px;
+}
+.left-navigation-bar-middle-item-container{
+    margin-top: 87px;
+}
+.left-navigation-bar-down-item-container{
+    margin-top: 222px;
+}
+.content{
+    background-color: var(--dark-color);
+}
+.content-header{
+    background: linear-gradient(0deg, #191817 -4.62%, rgba(0, 0, 0, 0) 45.9%), url('../../resources/insider-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+}
