@@ -1,0 +1,24 @@
+@import '../../variables.css';
+.nav-button{
+    display: flex;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: var(--gray-color); 
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+.nav-button-active{
+    color: var(--primary-text-color);
+}
+.nav-button-icon{
+    opacity: 0.5;
+}
+.nav-button-text{
+    margin-left: 10px;
+}
+.nav-button:hover{
+   text-decoration: underline;
+   color: var(--primary-text-color);
+}
