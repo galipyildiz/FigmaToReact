@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FigmaToReact/static/css/main.66bec9b3.css",
+    "main.js": "/FigmaToReact/static/js/main.87da4cd3.js",
+    "static/media/insider-image.png": "/FigmaToReact/static/media/insider-image.99383e2337e447ef4761.png",
+    "static/media/welcome-screen.png": "/FigmaToReact/static/media/welcome-screen.e01d9dc7b241dd144795.png",
+    "index.html": "/FigmaToReact/index.html",
+    "main.66bec9b3.css.map": "/FigmaToReact/static/css/main.66bec9b3.css.map",
+    "main.87da4cd3.js.map": "/FigmaToReact/static/js/main.87da4cd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66bec9b3.css",
+    "static/js/main.87da4cd3.js"
+  ]
+}
