@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import Welcome from "./pages/Welcome/Welcome";
 
@@ -16,7 +16,11 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <div style={{ color: "black" }}>Not Found</div>,
+    element: (
+      <div style={{ color: "black" }}>
+        Not Found. <Link to={"/"}>Back To Home</Link>
+      </div>
+    ),
   },
 ]);
 
