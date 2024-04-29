@@ -5,24 +5,27 @@ import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import Welcome from "./pages/Welcome/Welcome";
 
-const router = createBrowserRouter([
-  {
-    path: "/FigmaToReact",
-    element: <Welcome />,
-  },
-  {
-    path: "/home",
-    element: <Home />,
-  },
-  {
-    path: "*",
-    element: (
-      <div style={{ color: "black" }}>
-        Not Found. <Link to={"/FigmaToReact"}>Back To Home</Link>
-      </div>
-    ),
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Welcome />,
+    },
+    {
+      path: "/home",
+      element: <Home />,
+    },
+    {
+      path: "*",
+      element: (
+        <div style={{ color: "black" }}>
+          Not Found. <Link to={"/"}>Back To Home</Link>
+        </div>
+      ),
+    },
+  ],
+  { basename: "/FigmaToReact" }
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

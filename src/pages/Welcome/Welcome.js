@@ -1,7 +1,7 @@
 import React from "react";
 import "./Welcome.css";
 import PrimaryButton from "../../components/PrimaryButton";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Logo from "../../components/Logo";
 
 function Welcome() {
@@ -23,9 +23,7 @@ function Welcome() {
         />
         <p>
           No account?{" "}
-          <a className="sign-up-link" href="#">
-            Sign up
-          </a>
+          <Link className="sign-up-link" to={"/"} >Sign up</Link>
         </p>
       </div>
     </div>
