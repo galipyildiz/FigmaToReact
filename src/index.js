@@ -7,7 +7,7 @@ import Welcome from "./pages/Welcome/Welcome";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/FigmaToReact",
     element: <Welcome />,
   },
   {
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     path: "*",
     element: (
       <div style={{ color: "black" }}>
-        Not Found. <Link to={"/"}>Back To Home</Link>
+        Not Found. <Link to={"/FigmaToReact"}>Back To Home</Link>
       </div>
     ),
   },
