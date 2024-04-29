@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/FigmaToReact/static/css/main.1a3d585c.css",
-    "main.js": "/FigmaToReact/static/js/main.bc0794e7.js",
+    "main.css": "/FigmaToReact/static/css/main.1da79f68.css",
+    "main.js": "/FigmaToReact/static/js/main.11da5f4b.js",
     "static/media/insider-image.png": "/FigmaToReact/static/media/insider-image.99383e2337e447ef4761.png",
-    "static/media/welcome-screen.png": "/FigmaToReact/static/media/welcome-screen.e01d9dc7b241dd144795.png",
     "index.html": "/FigmaToReact/index.html",
-    "main.1a3d585c.css.map": "/FigmaToReact/static/css/main.1a3d585c.css.map",
-    "main.bc0794e7.js.map": "/FigmaToReact/static/js/main.bc0794e7.js.map"
+    "main.1da79f68.css.map": "/FigmaToReact/static/css/main.1da79f68.css.map",
+    "main.11da5f4b.js.map": "/FigmaToReact/static/js/main.11da5f4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a3d585c.css",
-    "static/js/main.bc0794e7.js"
+    "static/css/main.1da79f68.css",
+    "static/js/main.11da5f4b.js"
   ]
 }
