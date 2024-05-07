@@ -33,3 +33,16 @@
     background-size: cover;
     height: 40%;
 }
+.content-trending{
+    padding-left: 32px;
+    padding-right: 42px;
+    padding-top: 8px;
+}
+.content-trending > h2{
+    margin-top: 6px;
+}
+.trending-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

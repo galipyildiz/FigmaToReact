@@ -1,0 +1,10 @@
+@import '../../variables.css';
+.card{
+    width: 255px;
+    height: 301px;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid var(--gray-color);
+}

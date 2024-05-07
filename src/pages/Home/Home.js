@@ -8,7 +8,9 @@ import UsersIcon from "../../resources/users.png";
 import SocialIcon from "../../resources/message-circle.png";
 import SettingsIcon from "../../resources/sliders.png";
 import LogoutIcon from "../../resources/log-out.png";
+import TokyoTrain from "../../resources/TokyoTrain.png";
 import "./Home.css";
+import Card from "../../components/Card/Card";
 
 function Home() {
   return (
@@ -32,6 +34,35 @@ function Home() {
       </div>
       <div className="content">
         <div className="content-header"></div>
+        <div className="content-trending">
+          <h2>Trending</h2>
+          <div className="trending-container">
+            <Card
+              name={"Tokyo Train"}
+              year={2022}
+              genre={"Action comedy"}
+              imgSrc={TokyoTrain}
+            />
+            <Card
+              name={"Tokyo Train"}
+              year={2022}
+              genre={"Action comedy"}
+              imgSrc={TokyoTrain}
+            />
+            <Card
+              name={"Tokyo Train"}
+              year={2022}
+              genre={"Action comedy"}
+              imgSrc={TokyoTrain}
+            />
+            <Card
+              name={"Tokyo Train"}
+              year={2022}
+              genre={"Action comedy"}
+              imgSrc={TokyoTrain}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
